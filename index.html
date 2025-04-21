@@ -1,95 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <!-- Configuration de la page et déclaration du charset -->
-  <meta charset="UTF-8">
-  <!-- Assurer la réactivité sur mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Titre de la page -->
-  <title>MedCabine | Cabine médicale autonome</title>
-  <!-- Lien vers la feuille de style externe -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedAI Booth - Cabine Médicale Autonome</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo MedAI Booth" class="logo" />
+      <h1>MedAI Booth</h1>
+      <p>La santé intelligente, partout, pour tous.</p>
+    </header>
 
-  <!-- HEADER: Affiche le logo et le menu de navigation -->
-  <header>
-    <div class="logo">MedCabine</div>
-    <nav>
-      <ul>
-        <li><a href="#hero">Accueil</a></li>
-        <li><a href="#concept">Concept</a></li>
-        <li><a href="#fonctionnalites">Fonctionnalités</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <section class="intro">
+        <h2>Qu’est-ce que MedAI Booth ?</h2>
+        <p>
+          MedAI Booth est une cabine médicale autonome équipée d'intelligence artificielle, conçue pour améliorer l’accès aux soins dans les établissements scolaires, les entreprises et les collectivités.
+        </p>
+      </section>
 
-  <!-- SECTION HERO: Grande image de fond avec effet d'overlay et texte central -->
-  <section id="hero" class="hero">
-    <!-- Image de fond intégrée via CSS dans cette section -->
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1>MedCabine</h1>
-      <p>Cabine médicale autonome – La santé en immersion</p>
-      <a href="#contact" class="btn">Nous contacter</a>
-    </div>
-  </section>
+      <section class="features">
+        <h2>Fonctionnalités</h2>
+        <ul>
+          <li>Dispositifs médicaux connectés (ECG, tensiomètre, etc.)</li>
+          <li>Pré-diagnostic via intelligence artificielle</li>
+          <li>Désinfection automatique par UV</li>
+          <li>Accessibilité PMR et interface intuitive</li>
+        </ul>
+      </section>
 
-  <!-- SECTION CONCEPT: Présentation du concept de MedCabine -->
-  <section id="concept" class="section concept">
-    <div class="container">
-      <h2>Le Concept</h2>
-      <p>
-        MedCabine est une cabine médicale autonome conçue pour permettre des consultations de santé basiques
-        et des téléconsultations en toute autonomie, disponible dans des lieux publics ou privés.
-      </p>
-      <!-- Image représentative du concept hébergée sur Unsplash -->
-      <img src="https://source.unsplash.com/featured/800x600/?medical,technology" alt="Concept Médical" class="section-image">
-    </div>
-  </section>
+      <section class="vision">
+        <h2>Notre vision</h2>
+        <p>
+          Rendre les soins de santé accessibles, sécurisés et rassurants, avec une technologie au service de l’humain.
+        </p>
+      </section>
 
-  <!-- SECTION FONCTIONNALITES: Liste des fonctionnalités principales -->
-  <section id="fonctionnalites" class="section features">
-    <div class="container">
-      <h2>Fonctionnalités</h2>
-      <ul class="features-list">
-        <li>Écran HD pour téléconsultation</li>
-        <li>Capteurs vitaux intégrés : tension, température, IMC</li>
-        <li>Interface tactile intuitive</li>
-        <li>Sécurité renforcée grâce à la connexion via QR code ou carte vitale</li>
-        <li>Transmission automatique des données vers le médecin</li>
-        <li>Impression sur place des ordonnances et rapports</li>
-      </ul>
-    </div>
-  </section>
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Intéressé par MedAI Booth ? Contactez-nous à <a href="mailto:contact@medai.fr">contact@medai.fr</a></p>
+      </section>
+    </main>
 
-  <!-- SECTION CONTACT: Formulaire pour contacter l'équipe MedCabine -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <form action="#" method="POST">
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="name" placeholder="Votre nom" required>
-        
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" placeholder="Votre email" required>
-        
-        <label for="message">Message :</label>
-        <textarea id="message" name="message" placeholder="Votre message" required></textarea>
-        
-        <button type="submit" class="btn">Envoyer</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- FOOTER: Informations complémentaires -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 MedCabine. Tous droits réservés.</p>
-    </div>
-  </footer>
-
-  <!-- Eventuellement, des scripts pour animations supplémentaires peuvent être ajoutés ici -->
-</body>
+    <footer>
+      <p>© 2025 MedAI Booth. Tous droits réservés.</p>
+    </footer>
+  </body>
 </html>
+
